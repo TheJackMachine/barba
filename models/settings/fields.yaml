@@ -1,0 +1,27 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    _intro_section:
+        label: jackmachine.barba::settings.strings.intro_section.label
+        type: section
+        comment: jackmachine.barba::settings.strings.intro_section.comment
+        commentHtml: true
+
+    default_namespace:
+        label: jackmachine.barba::settings.strings.default_namespace
+        span: left
+
+    load_cdn:
+        label: jackmachine.barba::settings.strings.load_cdn
+        type: switch
+        default: 1
+        span: left
+
+    load_minimal_transition:
+        label: jackmachine.barba::settings.strings.load_minimal_transition
+        type: switch
+        default: 1
+        span: left

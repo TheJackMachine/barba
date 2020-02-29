@@ -1,0 +1,8 @@
+[data-barba='wrapper'] {
+    position: relative;
+}
+
+.is-animating > [data-barba='container'] {
+    position: absolute;
+    width: 100%;
+}
